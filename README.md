@@ -2,8 +2,14 @@
 basic codes
 
 ## Tips
-source
+- source
 ```
 cat ${ipynb_filename} | jq .cells[].source
+```
+
+- extensions configuration dir
+  - Mac
+```
+/anaconda3/share/jupyter/nbextensions
 ```
 
