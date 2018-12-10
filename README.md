@@ -13,3 +13,7 @@ cat ${ipynb_filename} | jq .cells[].source
 /anaconda3/share/jupyter/nbextensions
 ```
 
+- Flask
+```
+pip install Flask
+```
