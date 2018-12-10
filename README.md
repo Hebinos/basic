@@ -27,3 +27,8 @@ http://rennnosukesann.hatenablog.com/entry/2018/07/21/155401
 ```
 FLASK_APP=hello.py flask run
 ```
+
+- check
+```
+curl http://127.0.0.1:5000/hoge?param=helloAPI
+```
