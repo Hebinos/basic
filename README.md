@@ -17,3 +17,9 @@ cat ${ipynb_filename} | jq .cells[].source
 ```
 pip install Flask
 ```
+
+- API
+```
+http://rennnosukesann.hatenablog.com/entry/2018/07/21/155401
+```
+`
