@@ -22,4 +22,8 @@ pip install Flask
 ```
 http://rennnosukesann.hatenablog.com/entry/2018/07/21/155401
 ```
-`
+
+- launch API server
+```
+FLASK_APP=hello.py flask run
+```
