@@ -10,15 +10,6 @@ def getTop():
         response.setdefault('res', 'param is : ' + params.get('param'))
     return make_response(jsonify(response))
 
-@app.route("/hoge", methods=['GET'])
-def getHoge():
-    # URLパラメータ
-    params = request.args
-    response = {}
-    if 'param' in params:
-        response.setdefault('res', 'param is : ' + params.get('param'))
-    return make_response(jsonify(response))
-
 @app.route("/hoge", methods=['POST'])
 def postHoge():
     # ボディ(application/json)パラメータ
